@@ -5,6 +5,6 @@ public abstract class Mammal implements Creature {
     public abstract void makeSound();
     @Override
     public void live() {
-        // TODO
+        System.out.println("still alive");
     }
 }
